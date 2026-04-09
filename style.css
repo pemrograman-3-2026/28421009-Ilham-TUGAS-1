@@ -1,0 +1,90 @@
+ body { font-family: 'Segoe UI', sans-serif; color: #1a1a1a; }
+
+    #hero {
+      background: #000080;
+      color: #fff;
+      padding: 100px 0 80px;
+    }
+
+    #hero .badge-status {
+      display: inline-block;
+      background: #1db954;
+      color: #fff;
+      font-size: 12px;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      letter-spacing: 0.5px;
+    }
+
+    #hero h1 { font-size: 2.8rem; font-weight: 700; }
+    #hero p { color: #aaa; max-width: 520px; line-height: 1.8; }
+
+    .tag {
+      display: inline-block;
+      background: #4169e1;
+      color: #ffffff;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin: 3px 2px;
+      border: 1px solid #ffffff;
+    }
+
+    section { padding: 50px 0; }
+
+    .section-label {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #888;
+      margin-bottom: 8px;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+
+    .award-item {
+      border-left: 3px solid #000080;
+      padding-left: 16px;
+      margin-bottom: 20px;
+    }
+
+    .award-item .year { font-size: 12px; color: #888; }
+    .award-item h6 { font-weight: 600; margin: 4px 0 2px; }
+    .award-item p { font-size: 13px; color: #555; margin: 0; }
+
+    .exp-item { margin-bottom: 28px; }
+    .exp-item .period { font-size: 12px; color: #888; }
+    .exp-item h6 { font-weight: 700; margin: 4px 0 2px; }
+    .exp-item .company { font-size: 13px; color: #555; }
+
+    .project-card {
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      padding: 20px;
+      height: 100%;
+      transition: box-shadow 0.2s;
+    }
+    .project-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .project-card .cat {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #888;
+      letter-spacing: 1px;
+    }
+    .project-card h6 { font-weight: 700; margin: 6px 0 8px; }
+    .project-card p { font-size: 13px; color: #555; margin: 0; }
+
+    #contact { background: #000080; color: #fff; padding: 70px 0; }
+    #contact a { color: #aaa; text-decoration: none; }
+    #contact a:hover { color: #fff; }
+
+    .skill-block { margin-bottom: 18px; }
+    .skill-block h6 { font-weight: 700; margin-bottom: 6px; }
+    .skill-block p { font-size: 13px; color: #555; margin-bottom: 8px; }
